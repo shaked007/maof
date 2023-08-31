@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+.flex-chars{
+  display: flex;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: flex-start;
+  gap: 20px 20px;
+  flex-wrap: wrap;
+}
+
+
+@media  (max-width:850px){
+  .flex-chars{
+      justify-content: center !important;
+  }
+
+}

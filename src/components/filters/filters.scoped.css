@@ -1,0 +1,6 @@
+.flex-filters{
+    display: flex;
+    justify-content: center;
+    gap: 10px 10px;
+    text-align: center;
+}

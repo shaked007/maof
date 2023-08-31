@@ -1,0 +1,27 @@
+.char-card{
+    /* width: 30%; */
+    /* height: 200px; */
+    /* padding: 1em 1em; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;}
+.char-card img{
+    width: 300px;
+    max-height: 200px;
+}.flex-details{
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    border-radius: 10px;
+  }
+
+
+  @media  (max-width:1000px ){
+    .char-card img{
+        width: 400px !important;
+    }
+}
+@media  (max-width:680px){
+   
+    .char-card img{
+        width: 400px !important;
+    }
+}
